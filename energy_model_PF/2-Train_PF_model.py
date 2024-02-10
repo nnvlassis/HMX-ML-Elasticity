@@ -22,7 +22,7 @@ K.set_floatx('float64')
 K.set_epsilon(1e-16)
 
 #Load csv data
-data = pd.read_csv("./HMX_data/all_Data_denoised_PF.csv")
+data = pd.read_csv("../HMX_data/Data_denoised_PF.csv")
 
 #Assign strain and stress components
 F11 = data["f11"].values
